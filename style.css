@@ -1,47 +1,47 @@
 #container
 {
-	margin: 0 30px;
+    width:100%;
 	background: #fff;
 }
 
-#header
-{
-	background: #ccc;
-	padding: 20px;
+
+/* --- --- Header --- --- */
+#header {
+    width:100%;
+	background-color:#000033;
+    float: left;
+    margin-bottom:25px;
 }
 
-#header h1 { margin: 0; }
-
-#navigation
-{
-	float: left;
-	width: 100%;
-	background: #333;
+#header ul { 
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
-#navigation ul
-{
-	margin: 0;
-	padding: 0;
-}
 
-#navigation ul li
-{
+#header ul li {
 	list-style-type: none;
 	display: inline;
 }
 
-#navigation li a
-{
+#header li a {
 	display: block;
 	float: left;
 	padding: 5px 10px;
 	color: #fff;
+    font-family:sans-serif;
+    font-size:20px;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#header li a:hover { background: #000066; }
+
+
+
+
+
+
 
 #edito
 {
@@ -52,12 +52,9 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
+	background-color:whitesmoke;
+    font-family:sans-serif;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
 
 #edito h2
@@ -74,15 +71,17 @@
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	border-radius: 12px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	opacity: 0.83;
+	background-color:whitesmoke;
+    font-family:sans-serif;
+}
+#news h2
+{	
+	color: #000;
+	font-size: 130%;
+	margin: 0 0 .5em;
 }
 
 #footer
